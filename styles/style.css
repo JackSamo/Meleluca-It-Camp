@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Calligraffitti&display=swap');
 * {
+
     font-family: sans-serif;
     margin: 0;
     padding: 0;
@@ -64,7 +67,7 @@ header li :hover {
 
 .card {
     width: 28%;
-    background-color: white;
+    background-color: #ffffff;
     color: #1e2d2fe8;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -147,4 +150,24 @@ footer div {
     .business_information {
         grid-row: 3;
     }
+}
+
+  .food {
+  color: blue;
+  list-style-position: inside;
+  margin-left: 15px;
+   font-family: 'Calligraffitti', cursive;
+}
+.font{
+  font-family: 'Calistoga', cursive;
+}
+  
+
+.fancycolor{
+  color: var(--silver-lake-blue);
+  --dark-green: #17301cff;
+--dark-cyan: #379392ff;
+--moonstone: #4fb0c6ff;
+--silver-lake-blue: #4f86c6ff;
+--slate-blue: #744fc6ff;
 }
