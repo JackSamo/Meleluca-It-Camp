@@ -22,7 +22,7 @@ header {
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: white;
+    background-color:var(--brunswick-green);
     font-weight: 300;
     padding: 15px;
     justify-content: center;
@@ -57,17 +57,21 @@ header li :hover {
 }
 
 .content {
+    display:flex;
     padding: 74px 50px;
-    background-color: #f7f7f7;
-    display: flex;
+    background-color:var(--hunter-green);
     gap: 35px;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: row;
+    margin: 0 auto;
+    /* padding: 20px 0; */
 }
+
 
 .card {
     width: 28%;
-    background-color: #ffffff;
+    background-color:var(--fern-green);
     color: #1e2d2fe8;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -91,8 +95,8 @@ button {
 }
 
 footer {
-    background-color: gray;
-    color: white;
+    background-color:var(--brunswick-green);
+    color:var(--timberwolf);
     
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -133,11 +137,6 @@ footer div {
     header ul {
         margin: 0 auto;
     }
-    .content {
-        flex-direction: column;
-        margin: 0 auto;
-        padding: 20px 0;
-    }
     .card {
         margin: 0 auto;
     }
@@ -153,7 +152,7 @@ footer div {
 }
 
   .food {
-  color: blue;
+  color:var(--timberwolf);
   list-style-position: inside;
   margin-left: 15px;
    font-family: 'Calligraffitti', cursive;
@@ -163,11 +162,13 @@ footer div {
 }
   
 
-.fancycolor{
-  color: var(--silver-lake-blue);
-  --dark-green: #17301cff;
---dark-cyan: #379392ff;
---moonstone: #4fb0c6ff;
---silver-lake-blue: #4f86c6ff;
---slate-blue: #744fc6ff;
+.Wordcolor{
+ color:var(--timberwolf);
+}
+:root {
+--timberwolf: #dad7cdff;
+--sage: #a3b18aff;
+--fern-green: #588157ff;
+--hunter-green: #3a5a40ff;
+--brunswick-green: #344e41ff;
 }
