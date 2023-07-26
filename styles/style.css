@@ -172,3 +172,8 @@ footer div {
 --hunter-green: #3a5a40ff;
 --brunswick-green: #344e41ff;
 }
+img{
+  object-fit: cover;
+  width: 100px; 
+  height: 100px;
+}
